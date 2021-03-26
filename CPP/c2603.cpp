@@ -1,5 +1,6 @@
 #include<iostream>
-static int count;
+using namespace std;
+
 class test
 {
   int code;
@@ -15,7 +16,7 @@ public:
   }
   static void showcount()
   {
-    cout<<"count : "<<count;
+    cout<<"count : "<<count<<endl;
   }
 };
 int test::count;
