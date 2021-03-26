@@ -1,42 +1,35 @@
-#include <iostream>
-#include <iomanip>
-using namespace std;
-
-class student
+#include<iostream>
+static int count;
+class test
 {
-  int rno;
-  char name[10];
-  static char course[10];
+  int code;
+  static int count;
 public:
-  void getdata()
+  void setcode()
   {
-    cout << "Enter roll number: ";
-    cin >> rno;
-    cout << "Enter name: ";
-    cin >> name;
+    code = ++count;
   }
-  void putdata()
+  void showcode()
   {
-    cout << "Student details" <<endl;
-    cout << "Roll Number: " << rno <<endl;
-    cout << "Name: " << name << endl;
-    cout << "Course: " << course << endl;
+    cout<<"Object number : "<<code<<endl;
+  }
+  static void showcount()
+  {
+    cout<<"count : "<<count;
   }
 };
-char student::course[10]="Cognitive";
+int test::count;
 int main()
 {
-    student s[10];
-    int n;
-    cout<<"Enter how many students you want: ";
-    cin>>n;
-    for (int i=0;i<n;i++)
-     {
-       s[i].getdata();
-     }
-    for (int i=0;i<n;i++)
-     {
-       s[i].putdata();
-     }
-     return 0;
+  test t1,t2;
+  t1.setcode();
+  t2.setcode();
+  test::showcount();
+  test t3;
+  t3.setcode();
+  test::showcount();
+  t1.showcount();
+  t2.showcount();
+  t3.showcount();
+  return 0;
 }
