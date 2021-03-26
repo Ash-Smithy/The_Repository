@@ -1,7 +1,5 @@
-//Such a bullly
 #include<iostream>
 using namespace std;
-
 class test
 {
   int code;
