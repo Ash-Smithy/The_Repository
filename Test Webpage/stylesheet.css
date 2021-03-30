@@ -45,40 +45,21 @@ h2 {
   font-size: 50px;
 }
 .CS {
-  font-family: ROG Fonts;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
   height: 100%;
   width: 100%;
   font-size: 40px;
   padding: 1% 0;
   background-color: black;
   color: ghostwhite;
-}
-.cs {
-  font-family: ROG Fonts;
-  text-align: right;
-  height: 100%;
-  width: 100%;
-  font-size: 40px;
-  padding: 1% 0;
-  background-color: black;
-  color: ghostwhite;
-}
-.and {
-  font-family: ROG Fonts;
-  height: 100%;
-  width: 100%;
-  font-size: 35px;
-  padding: 1% 0;
-  background-color: black;
-  color: ghostwhite;
-}
 
 }
 h5 {
   font-size: 30px;
   color: #99AAb5;
   text-align: center;
-  font-family: Song of coronos;
+  font-family: 'Playfair Display SC', serif;
 }
 sub {
   font-size: 15px;
