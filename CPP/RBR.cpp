@@ -9,7 +9,7 @@ int main()
   cout << "Enter two integers: ";
   cin >> a >> b;
   max(a,b)=425;
-  cout << "a=" << a << "\nb="<<b;
+  cout << "a=" << a << endl << "b="<<b;
   return 0;
 }
 
