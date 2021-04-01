@@ -8,8 +8,8 @@ void print(char ch='-',int n=10);
 int main()
 {
   print();
-  print('*');
-  print('=',5);
+  print('/');
+  print('',3);
 }
 void print(char ch, int n)
 {
