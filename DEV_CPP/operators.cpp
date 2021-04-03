@@ -38,10 +38,18 @@ cout<<sizeof(*p)<<endl;
 cout<<sizeof(*q)<<endl;
 
 }
+void mem_mgmt_new_other()
+{
+  int *p = new int(25);
+  float *q = new float(7.5);
+  cout<<sizeof(p)<<endl;
+  cout<<sizeof(q)<<endl;
+}
 
 //main()
 int main()
 {
   scope_resolution1();
   mem_mgmt_new();
+  mem_mgmt_new_other();
 }
