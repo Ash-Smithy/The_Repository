@@ -27,6 +27,7 @@ void scope_resolution1()
 }
 
 // operator 2 --> Memory management operator
+void mem_mgmt_new();
 void mem_mgmt_new()
 {
 int *p = new int;
@@ -38,6 +39,7 @@ cout<<sizeof(*p)<<endl;
 cout<<sizeof(*q)<<endl;
 
 }
+void mem_mgmt_new_other();
 void mem_mgmt_new_other()
 {
   int *p = new int(25);
