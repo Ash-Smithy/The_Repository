@@ -2,19 +2,6 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-//new cpp operators
-/*
-<< insertion operator
->> extraction operator
-:: scope resolution operator
-::*
-->*
-.*
-endl
-delete
-new
-setw
-*/
 
 // operator 1 --> scope resolution operator
 int m=10;

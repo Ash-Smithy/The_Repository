@@ -24,7 +24,7 @@ public:
 char student :: course[10]="CSC";
 int main()
 {
-  student s[10];
+  student s[10];//object array
   int i,n;
   cout<<"Enter how many student details you want to enter : ";
   cin>>n;
