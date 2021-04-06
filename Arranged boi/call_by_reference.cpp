@@ -16,6 +16,6 @@ int main()
   a = 10;
   b = 20;
   cout<<"In main Before swapping :: A == "<<a<<" B == "<<b<<endl;
-  swap(a,b);
+  swap(a,b);//this is the different part from c ig
   cout<<"In main After swapping :: A == "<<a<<" B == "<<b<<endl;
 }
