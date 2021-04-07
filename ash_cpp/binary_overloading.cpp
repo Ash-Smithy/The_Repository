@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-  Add ob1(2,3),ob2(3,4),ob3;
+  Add ob1(2,9),ob2(3,4),ob3;
   ob3=ob1+ob2;
   ob1.show();
   ob2.show();
