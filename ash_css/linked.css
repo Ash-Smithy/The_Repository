@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Satisfy', cursive;;
+  color: Red;
+  text-align: left;
+  font-size: 60px;
+}
+h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #4A0000;
+  text-align: center;
+  font-size: 55px;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  text-align: right;
+  font-size: 50px;
+  color: #4169E1;
+}
