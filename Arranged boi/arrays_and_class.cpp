@@ -33,7 +33,7 @@ int main()
     s[i].getdata();
   }
   cout<<endl;
-  cout<<"Now the details of the students you entered are :: ";
+  cout<<"Now the details of the students you entered are :: "<<endl;
   for(i=0;i<n;i++)
   {
     s[i].putdata();
