@@ -17,6 +17,12 @@ public:
   vector(T* a)
   {
     for(int i=0;i<size;i++)
+    v[i]=a[i];
+  }
+  T operator*(vector &y)
+  {
+    T sum=0;
+    for(int i=0;i<size;i++)
     sum+=this->v[i]*y.v[i];
     return sum;
   }
