@@ -16,14 +16,15 @@ class Base
       return a;
     }
 };
-class Derived: public Base
+class Derived: private Base
 {
   int b,res;
-public:
   //void set_a();
   //void get_a();
+public:
   void set_b()
   {
+    set_a();
     cout<<"Enter a value for b: ";
     cin>>b;
   }
