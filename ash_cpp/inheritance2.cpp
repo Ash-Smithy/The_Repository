@@ -37,7 +37,6 @@ public:
 int main()
 {
   Derived obj;
-  obj.set_a();
   obj.set_b();
   obj.product();
   return 0;
