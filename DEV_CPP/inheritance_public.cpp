@@ -37,5 +37,4 @@ int main()
   ob1.set_b();
   ob1.product();
   return 0;
-
 }
