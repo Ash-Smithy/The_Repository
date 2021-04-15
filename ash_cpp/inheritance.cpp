@@ -37,4 +37,5 @@ int main()
   obj.set_a();
   obj.set_b();
   obj.product();
+  return 0;
 }
