@@ -37,7 +37,6 @@ public:
   //set_b()
   //get_a()
   //get_b()
-  
   void add()
   {
     c=get_a()+get_b();
