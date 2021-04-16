@@ -14,7 +14,7 @@ public:
     cin >> n2;
   }
   friend float ans(MEAN m);
-}
+};
 float ans(MEAN m)
 {
   return float(m.n1+m.n2)/2;
