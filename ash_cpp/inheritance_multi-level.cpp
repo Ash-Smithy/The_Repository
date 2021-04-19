@@ -3,8 +3,8 @@ using namespace std;
 
 class A
 {
-  int a;
 public:
+    int a;
   void seta()
   {
     a=10;
@@ -17,8 +17,8 @@ public:
 
 class B:public A
 {
-  int b;
 public:
+    int b;
   void setb()
   {
     b=20;
@@ -46,6 +46,5 @@ int main()
 {
   C obj;
   obj.setc();
-  obj.display();
-  return 0;
+  return obj.display();
 }
