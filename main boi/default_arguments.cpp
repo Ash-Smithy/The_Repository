@@ -1,7 +1,7 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-void print(char ch='-',int n=10);
+void print(char ch='-',int n=2);
 int main()
 {
   print();
