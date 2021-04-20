@@ -26,19 +26,5 @@ public:
 };
 class C: public B
 {
-  int sum;
-public:
-  void add()
-  {
-    sum=m1+m2;
-    cout << "Sum is = " << sum;
-  }
-};
-int main()
-{
-  C aha;
-  aha.getm1();
-  aha.getm2();
-  aha.add();
-  return 0;
+  int sum
 }
