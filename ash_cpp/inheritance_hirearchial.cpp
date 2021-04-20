@@ -1,30 +1,45 @@
 #include <iostream>
 using namespace std;
 
-class A
+class Shape
 {
 protected:
-  int m1;
+  int d1,d2;
 public:
-  void getm1()
+  void getdim()
   {
-    cout << "Enter a value: ";
-    cin >> m1;
+    cout << "Enter d1,d2 values: ";
+    cin >> d1 >> d2;
   }
 };
 
-class B : public A
+class Rectangle : public Shape
 {
-protected:
-  int m2;
+  float area;
 public:
-  void getm2()
+  void area_rect()
   {
-    cout << "Enter a value: ";
-    cin >> m2;
+    area=d1*d2;
+    cout << "Area of rectangle: " << area <<endl;
   }
 };
-class C: public B
+class Triangle: public Shape
 {
-  int sum
+  float area;
+public:
+  void area_tri()
+  {
+    area=0.5*d1*d2;
+    cout << "Area of Triangle: " << area;
+  }
+};
+int main()
+{
+  Rectangle hah;
+  Triangle aha;
+  hah.getdim();
+  hah.area_rect();
+  aha.getdim();
+  aha.area_tri();
+  return 0;
 }
