@@ -3,48 +3,42 @@ using namespace std;
 
 class A
 {
+protected:
+  int m1;
 public:
-    int a;
-  void seta()
+  void getm1()
   {
-    a=10;
-  }
-  int geta()
-  {
-    return a;
+    cout << "Enter a value: ";
+    cin >> m1;
   }
 };
 
-class B:public A
+class B : public A
 {
+protected:
+  int m2;
 public:
-    int b;
-  void setb()
+  void getm2()
   {
-    b=20;
-  }
-  int getb()
-  {
-    return b;
+    cout << "Enter a value: ";
+    cin >> m2;
   }
 };
-class C:public B
+class C: public B
 {
-  int c;
+  int sum;
 public:
-  void setc()
+  void add()
   {
-    c=geta()*getb();
-  }
-  void display()
-  {
-    cout << "C= " << c;
+    sum=m1+m2;
+    cout << "Sum is = " << sum;
   }
 };
-
 int main()
 {
-  C obj;
-  obj.setc();
-  return obj.display();
+  C aha;
+  aha.getm1();
+  aha.getm2();
+  aha.add();
+  return 0;
 }
