@@ -37,5 +37,9 @@ int main()
   cin>>a>>b;
   c = max(a,b);
   cout<<"The max integer is :: "<<c<<endl;
+  char str1[20],str2[20];
+  cout<<"Enter 2 string values :: ";
+  cin>>str1>>str2;
+  cout<<"The max string/ larger string is :: "<<max(str1,str2)<<endl;
   return 0;
 }
