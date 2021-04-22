@@ -32,11 +32,29 @@ int main_2()
   ptr->show();
   return 0;
 }
+int main_3()
+{
+  item *p = new item[2];
+  item *d = p;
+  for(int i=0;i<2;i++)
+  {
+    p->getdata();
+    p++;
+  }
+  for(int i=0;i<2;i++)
+  {
+    d->show();
+    d++;
+  }
+  return 0;
+}
 int main()
 {
-  cout<<"Method 1"<<endl;
-  main_1();
-  cout<<"\nMethod 2"<<endl;
-  main_2();
+  //cout<<"Method 1"<<endl;
+  //main_1();
+  //cout<<"\nMethod 2"<<endl;
+  //main_2();
+  cout<<"\nArray of objects :: \n";
+  main_3();
   return 0;
 }
