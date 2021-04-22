@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class item;
+class item
 {
   float price;
   int code;
 public:
   void getdata()
   {
-  cout << "Enter values for code and price";
+  cout << "Enter values for code and price: ";
   cin >> code >> price;
   }
   void show()
@@ -21,10 +21,9 @@ public:
 
 int main()
 {
-
   item x,*ptr; //item *ptr=new item;
   ptr=&x;
   ptr->getdata(); //(*ptr).getdata()
-  pte->show(); //(*ptr).show()
+  ptr->show(); //(*ptr).show()
   return 0;
 }
