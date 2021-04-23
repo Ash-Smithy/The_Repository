@@ -10,9 +10,9 @@ public:
     cout << "b = " << b << endl;
   }
 };
-class Dervied : public Base
+class Derived : public Base
 {
-  pubilc:
+public:
   int d;
   void show()
   {
