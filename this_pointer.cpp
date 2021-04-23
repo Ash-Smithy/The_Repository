@@ -1,5 +1,5 @@
 #include <iostream>
-using napesapce std;
+using namespace std;
 
 class Base
 {
