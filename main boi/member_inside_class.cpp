@@ -3,10 +3,11 @@
 using namespace std;
 class item
 {
+private:
   int num;
   float cost;
 public:
-  void getdata(int a, int b)
+  void getdata(int a=10, int b=20)
   {
     num = a;
     cost = b;
@@ -20,7 +21,7 @@ public:
 int main()
 {
   item obj;
-  obj.getdata(10,20);
+  obj.getdata();
   obj.putdata();
   return 0;
 }

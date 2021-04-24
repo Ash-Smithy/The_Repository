@@ -1,6 +1,6 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
-
 class Base
 {
 public:
@@ -26,7 +26,8 @@ int main()
 {
   Base *bptr;
   Derived1 d;
-  bptr=&d;
+  d.draw();
+  
   bptr->draw();
   Derived2 c;
   bptr=&c;
