@@ -26,8 +26,7 @@ int main()
 {
   Base *bptr;
   Derived1 d;
-  d.draw();
-  
+  bptr=&d;
   bptr->draw();
   Derived2 c;
   bptr=&c;

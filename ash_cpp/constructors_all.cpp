@@ -7,46 +7,28 @@ class A
 private:
   int x,y;
 public:
-  A()
+  A() //empty constructor
   {
     x=20;
     y=50;
   }
-  A(int a,int b)
+  A(int a,int b) //parameterized constructor
   {
     x=a;
     y=b;
   }
-  A(A &ob)
+  A(A &ob) //copy constructor
   {
     x=ob.x;
     y=ob.y;
   }
-  void show()
+  void show() //member function
   {
     cout<<"Value of a is :: "<<x<<"\nValue of B is :: "<<y<<endl;
   }
 };
-int main()
-{
-  int c=5;
-  while(c-- >=1)
-  {
-    cout<<"."<<endl;
-    Sleep(1500);
-  }
-  c=5;
-  cout<<"Sike!"<<endl;
-  while(c-- >=1)
-  {
-    cout<<"."<<endl;
-    Sleep(1500);
-  }
-  not_main();
-  not_main2();
-  return 0;
-}
-int not_main()
+
+void not_main()
 {
   A ob1;
   A ob2(10,70);
@@ -58,7 +40,7 @@ int not_main()
   cout<<"\n3rd copy constructor"<<endl;
   ob3.show();
   cout<<"\nThis overall use of constructors is constructor overloading"<<endl;
-  return 0;
+
 }
 class overload_both
 {
@@ -137,5 +119,11 @@ int not_main2()
   ob3 = ob1/ob2;
   cout<<"Members of object 1 / object 2 = ";
   ob3.show();
+  return 0;
+}
+int main()
+{
+  not_main();
+  not_main2();
   return 0;
 }
