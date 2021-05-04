@@ -1,28 +1,37 @@
+//Trying out constructors
+
 #include <iostream>
 using namespace std;
 
-class Base
+class Table
 {
 public:
-  virtual void print()
+  string t,c;
+  int n;
+  Table(string a,string b, int z)
   {
-    cout << "Base class";
+    t=a;
+    c=b;
+    n=z;
+    cout << "This is it " << t << " " << c << " " << n << endl;
+  }
+  Table(string a,string b)
+  {
+    t=a;
+    c=b;
+    cout << "This is another one " << t << " " << c << endl;
+  }
+  Table(string a)
+  {
+    t=a;
+    cout << "This is one " << t << endl;
   }
 };
-class Derived : public Base
-{
-public:
-  void print()
-  {
-    cout << "Derived class";
-  }
-};
-
 int main()
 {
-  Base *bptr;
-  Derived d;
-  bptr=&d;
-  bptr->print();
-  return 0;
+Table("Big","Four", 4);
+Table("Big");
+Table("Big","Four");
+
+return 0;
 }
