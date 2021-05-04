@@ -27,4 +27,4 @@ int add(int x, int y, int z)
   return x+y+z;
 }
 
-//On using float instead of double, we receieve an error. This is because the datatype gets converted 
+//On using float instead of double, we receieve an error. This is because the datatype gets converted

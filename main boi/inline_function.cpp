@@ -17,8 +17,8 @@ inline void item::getdata(int a,int b)
 }
 inline void item::putdata()
 {
-  cout<<num<<endl;
-  cout<<cost<<endl;
+  cout<<"Num is = "<<num<<endl;
+  cout<<"Cost is = "<<cost<<endl;
 }
 int main()
 {

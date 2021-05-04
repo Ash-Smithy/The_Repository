@@ -29,7 +29,10 @@ int main()
   t3.setcode();
   test::showcount();
   t1.showcount();
+  t1.showcode();
   t2.showcount();
+  t2.showcode();
   t3.showcount();
+  t3.showcode();
   return 0;
 }
