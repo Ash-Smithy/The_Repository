@@ -4,13 +4,15 @@
 </head>
 <body>
   <script>
-  var a=20,b=10,c=30;
+  var a=20,b=20,c=20;
   if( a > b & a > c)
-   document.write("Greater Number is: " +a);
-  else if ( b > c)
-   document.write("Greater Number is: " +b);
-   else
-    document.write("Greater Number is: " +c);
+     document.write("Greater Number is: " +a);
+  else if ( b > a & b > c)
+     document.write("Greater Number is: " +b);
+   else if (c > a & c > b)
+     document.write("Greater Number is: " +c);
+    else
+     document.write("They are equal");
   </script>
 </body>
 </html>
