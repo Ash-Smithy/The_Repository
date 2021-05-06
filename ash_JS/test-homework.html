@@ -1,0 +1,45 @@
+<!-- Homework -->
+<html>
+<head>
+<script>
+function great2(){
+var a,b;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+if( a > b)
+ document.getElementById("answer").value= a;
+else
+ document.getElementById("answer").value= b;
+}
+function great3(){
+var a,b,c;
+a=Number(document.getElementById("one").value);
+b=Number(document.getElementById("two").value);
+c=Number(document.getElementById("three").value);
+if( a > b & a > c)
+ document.getElementById("ans").value= a;
+ else if (b > c)
+ document.getElementById("ans").value= b;
+ else {
+   document.getElementById("ans").value= c;
+ }
+}
+</script>
+</head>
+<body>
+  <fieldset>
+    <legend>Greter of Two Numbers</legend>
+    Enter the First number : <input id="first"> <br>
+    Enter the Second number: <input id="second"> <br>
+<input id="answer"><button onclick="great2()">Find</button>
+</fieldset>
+<hr>
+<fieldset>
+  <legend>Greter of Three Numbers</legend>
+  Enter the First number : <input id="one"> <br>
+  Enter the Second number: <input id="two"> <br>
+  Enter the Third number: <input id="three"> <br>
+  <input id="ans"><button onclick="great3()">Find</button>
+</fieldset>
+</body>
+</html>
