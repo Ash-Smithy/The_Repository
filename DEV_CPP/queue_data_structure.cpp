@@ -2,7 +2,8 @@
 #include<iomanip>
 using namespace std;
 #define size 4
-class queue()
+
+class queue
 {
   int data[size];
   int front,rear;
@@ -11,9 +12,10 @@ public:
   {
     front = 1;
     rear = 1;
+  }
     void insert();
     void deletion();
-  }
+    void display();
 };
 void queue::insert()
 {
@@ -37,7 +39,7 @@ void queue::deletion()
 {
   if(front==-1)
   {
-    cout<<"\Queue is empty ";
+    cout<<"\nQueue is empty ";
   }
   cout<<data[front]<<" deleted"<<endl;
   if(front==rear)
@@ -50,7 +52,7 @@ void queue::deletion()
     front++;
   }
 }
-void display()
+void queue::display()
 {
   for(int i = front;i<=rear;i++)
   {
@@ -70,6 +72,5 @@ int main()
       case 2:q.deletion();break;
       case 3:q.display();
     }
-  }
-  return 0;
+  }while(ch!=3);
 }
