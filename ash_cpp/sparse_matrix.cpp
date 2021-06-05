@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -25,7 +26,7 @@ int main()
         sp[k][1]=j;
         sp[k][2]=a[i][j];
         k++;
-        t++
+        t++;
       }
     }
   }
@@ -39,6 +40,6 @@ int main()
      {
        cout<<sp[i][j]<< " ";
      }
-     cout<<"\n"
+     cout<<"\n";
    }
 }
