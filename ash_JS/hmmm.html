@@ -6,7 +6,7 @@ function kebab()
   var a,b;
   a=Number(document.getElementById("a").value);
   b=Number(document.getElementById("b").value);
-  alert ("Altogether you would have "+(a+b)+" kebabs.");
+  document.getElementById("ans").value =a+b;
 }
 </script>
 </head>
@@ -15,6 +15,7 @@ function kebab()
   Enter the number of kebabs you have : <input id="a"> <br>
   Enter the number of kebabs you want : <input id="b"> </p>
 <p style="font-size:20px"> when ready, click on <button onclick="kebab()">DA BUTTON</button>
+  and see how many kebabs you will have altogether over here: <input id="ans">
 </p>
 </body>
 </html>
