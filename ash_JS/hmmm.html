@@ -4,18 +4,17 @@
 function kebab()
 {
   var a,b;
-  a=Number(document.getelementByID("won").value);
-  b=Number(document.getelementByID("thu").value);
-  document.getElementById("bah").value= a+b;
+  a=Number(document.getElementById("a").value);
+  b=Number(document.getElementById("b").value);
+  alert ("" +(a+b));
 }
 </script>
 </head>
 <body>
 <p style="font-size:25px">
-  Enter "a" value: <input id="won"> <br>
-  Enter "b" value: <input id="thu"> </p>
+  Enter "a" value: <input id="a"> <br>
+  Enter "b" value: <input id="b"> </p>
 <p style="font-size:20px"> when ready, click on <button onclick="kebab()">DA BUTTON</button>
- to get the answer below <br> <input id="bah">
 </p>
 </body>
 </html>
