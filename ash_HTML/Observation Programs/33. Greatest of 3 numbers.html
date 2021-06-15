@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greatest of 3 numbers</title>
+    <script>
+    function great()
+    {
+      var a,b,c;
+      a=document.getElementById("one").value;
+      b=document.getElementById("two").value;
+      c=document.getElementById("three").value;
+      if (a>b && a>c)
+        window.alert("The greatest value is "+a);
+        else if (b>c)
+        window.alert("The greatest value is "+b);
+        else
+        window.alert("The greatest value is "+c);
+    }
+    </script>
+  </head>
+  <body>
+    <center>
+    Enter first value: <input type="text" id="one"> <br><br>
+    Enter second value: <input type="text" id="two"> <br><br>
+    Enter thind value: <input type="text" id="three"> <br><br>
+    <input type="button" value="Find the Greatest" onclick="great()">
+  </center>
+  </body>
+</html>
