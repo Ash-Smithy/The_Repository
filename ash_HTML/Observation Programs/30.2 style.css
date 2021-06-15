@@ -1,0 +1,33 @@
+/* CSS code for CSS External.html file */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background-image: url(aqua.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Contra Regular";
+}
+h5 {
+  padding: 50px 0px;
+  text-align: center;
+  font-style: oblique;
+}
+.image {
+  height: 989px;
+  width: 1484px;
+  background: url("hover2.jpg") no-repeat center;
+}
+
+ .image:hover{
+   height: 989px;
+   width: 1484px;
+   background: url("hover.jpg") no-repeat;
+ }
