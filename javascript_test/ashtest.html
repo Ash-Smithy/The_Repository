@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function kebab()
+{
+  var a,b;
+  a=Number(document.getElementById("won").value);
+  b=Number(document.getElementByID("thu").value);
+  document.getElementById("bah").value= a+b;
+}
+</script>
+</head>
+<body>
+<p style="font-size:25px">
+  Enter "a" value: <input id="won"> <br>
+  Enter "b" value: <input id="thu"> </p>
+<p style="font-size:20px"> when ready, click on <input type="button" value = "DA BUTTON" onclick="kebab()"> <br>
+ to get the answer : <input type="text" id="bah">
+</p>
+</body>
+</html>
