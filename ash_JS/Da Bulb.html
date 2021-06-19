@@ -6,15 +6,21 @@
   </head>
   <body>
     <div class="magic">
-      <img id="awie" src="bulb-off.jpg" alt="HAHA">
-      <img src="bulb-on.png" alt="HEHE">
+      <img id="awie" src="bulb-off.png" alt="HAHA">
+      <img id="yay" src="bulb-on.png" alt="HEHE">
       <button onclick="darkness()">OFF</button>
       <button onclick="kaching()">ON</button>
     </div>
     <script>
       function kaching()
       {
-        document.getElementById("")
+        document.getElementById("awie").style.visibility="hidden";
+        document.getElementById("yay").style.visibility="visible";
+      }
+      function darkness()
+      {
+        document.getElementById("yay").style.visibility="hidden";
+        document.getElementById("awie").style.visibility="visible";
       }
     </script>
   </body>
