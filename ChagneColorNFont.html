@@ -1,0 +1,21 @@
+<!-- The colour property, background colour property and the font property can be changed dynamicallly -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AAA</title>
+  </head>
+  <body>
+    <h2 id="myH2">This is a h2</h2>
+    <p id="myP">This is an example paragraph.</p>
+    <button type="button" onclick="myFunction()">Set colour</button>
+    <script type="text/javascript">
+      function myFunction()
+      {
+        document.getElementById("myH2").style.color = "red";
+        document.getElementsById("myP").style.color = "magenta";
+        document.body.style.backgroundColor = "blue";
+        document.getElementById("myH2").style.font="italic bold 40px arial,serif";
+      }
+    </script>
+  </body>
+</html>

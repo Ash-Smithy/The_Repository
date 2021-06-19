@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Power</title>
+    <script>
+    function power()
+    {
+      var n,p,i,val=1;
+      n=document.getElementById("n").value;
+      p=document.getElementById("pow").value;
+      for(i=1;i<=p;i++)
+      {
+        val=n*val;
+      }
+      window.alert("The value of "+n+" ^ "+p+" is = " +val);
+    }
+    </script>
+  </head>
+  <body>
+    <center>
+      Enter a number: <input type="text" id="n"> <br>
+      Enter the power: <input type="text" id="pow"> <br>
+      <input type="button" value="Find Value" onclick="power()">
+    </center>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empdata>
+<emp>
+  <empid>1</empid>
+  <empname>Ash</empname>
+  <empsalary>50000</empsalary>
+</emp>
+<emp>
+  <empid>2</empid>
+  <empname>John</empname>
+  <empsalary>90000</empsalary>
+</emp>
+</empdata>
