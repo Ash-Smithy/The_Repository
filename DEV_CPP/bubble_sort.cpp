@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  int array[5] = { 5,4,1,2,3},n,c,d,swap;
+  int array[5] = {5,4,1,2,3},n,c,d,swap;
   n = 5;
   for(c = 0; c < n-1 ; c++)
   {
