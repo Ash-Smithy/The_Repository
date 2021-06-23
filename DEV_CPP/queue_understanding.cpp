@@ -21,10 +21,10 @@ void queue::insert()
 {
   if(rear == size-1)
   {
-    cout<<"\nThe queue is full!";
+    cout<<"\nThe queue is full! This is a data overflow condition "<<endl;
     return;
   }
-  else if(rear == -1)
+  else if(rear == -1 && front == -1)
   {
     rear++;
     front++;
@@ -40,7 +40,7 @@ void queue::deletion()
 {
   if(front==-1)
   {
-    cout<<"\nThe queue is empty!";
+    cout<<"\nThe queue is empty! This is a data underflow condition";
     return;
   }
   cout<<array[front]<<" deleted!"<<endl;
@@ -56,10 +56,10 @@ void queue::deletion()
 }
 void queue::display()
 {
-  cout<<"\n{ ";
+  cout<<"\n{";
   for(int i=front;i<=rear;i++)
   {
-    cout<<" "<<array[i];
+    cout<<setw(5)<<array[i]<<setw(5);
   }
   cout<<" }"<<endl;
 }
