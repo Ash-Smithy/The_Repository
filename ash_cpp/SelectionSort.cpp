@@ -11,8 +11,8 @@ int main()
    position = i;
    for (j = i + 1; j < n; j++)
     {
-    if (arr[position] > arr[j])
-    position = j;
+      if (arr[position] > arr[j])
+      position = j;
     }
    if (position != i)
    {

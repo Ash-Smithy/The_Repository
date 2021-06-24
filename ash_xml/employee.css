@@ -1,0 +1,11 @@
+employee
+{
+  background-color: ghostwhite;
+}
+firstname,lastname,email
+{
+  font-size: 25px;
+  display: block;
+  color: blue;
+  margin-left: 50px;
+}
