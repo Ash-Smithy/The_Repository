@@ -18,9 +18,9 @@ int main()
       cout<<"element "<<x<<" found at position :: "<<i+1<<endl;
       break;
     }
-    else if(i == 10 && arr[i]!=x)
+    else if(i == 9 && arr[i]!=x)
     {
-      cout<"\nElement not found in array\n";
+      cout<<"\nElement not found in array\n";
     }
     else
     {
