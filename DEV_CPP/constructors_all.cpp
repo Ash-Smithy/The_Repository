@@ -28,25 +28,7 @@ public:
     cout<<"Value of a is :: "<<x<<"\nValue of B is :: "<<y<<endl;
   }
 };
-int main()
-{
-  int c=5;
-  while(c-- >=1)
-  {
-    cout<<"."<<endl;
-    Sleep(1500);
-  }
-  c=5;
-  cout<<"Sike!"<<endl;
-  while(c-- >=1)
-  {
-    cout<<"."<<endl;
-    Sleep(1500);
-  }
-  not_main();
-  not_main2();
-  return 0;
-}
+
 int not_main()
 {
   A ob1;
@@ -138,5 +120,24 @@ int not_main2()
   ob3 = ob1/ob2;
   cout<<"Members of object 1 / object 2 = ";
   ob3.show();
+  return 0;
+}
+int main()
+{
+  int c=5;
+  while(c-- >=1)
+  {
+    cout<<"."<<endl;
+    Sleep(1500);
+  }
+  c=5;
+  cout<<"Sike!"<<endl;
+  while(c-- >=1)
+  {
+    cout<<"."<<endl;
+    Sleep(1500);
+  }
+  not_main();
+  not_main2();
   return 0;
 }
