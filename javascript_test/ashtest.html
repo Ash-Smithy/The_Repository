@@ -1,21 +1,23 @@
+<!DOCTYPE html>
 <html>
-<head>
-<script>
-function kebab()
-{
-  var a,b;
-  a=Number(document.getElementById("won").value);
-  b=Number(document.getElementByID("thu").value);
-  document.getElementById("bah").value= a+b;
-}
-</script>
-</head>
-<body>
-<p style="font-size:25px">
-  Enter "a" value: <input id="won"> <br>
-  Enter "b" value: <input id="thu"> </p>
-<p style="font-size:20px"> when ready, click on <input type="button" value = "DA BUTTON" onclick="kebab()"> <br>
- to get the answer : <input type="text" id="bah">
-</p>
-</body>
+  <head>
+    <title></title>
+    <script type="text/javascript">
+      function aa()
+      {
+        alert("Loading..");
+      }
+      //yeet Text
+      var x;
+      function show()
+      {
+        x=Number(document.getElementById("num").value);
+        window.alert("The number is "+x);
+      }
+    </script>
+  </head>
+  <body onload="aa()">
+    <input type="text" id="num">
+    <button name="button" onclick="show()">LA BUTTON</button>
+  </body>
 </html>
