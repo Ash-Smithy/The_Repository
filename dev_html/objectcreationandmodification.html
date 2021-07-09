@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Creation and modification</title>
+  </head>
+  <body>
+    <script>
+      function emp(id,name,salary)
+      {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+      }
+      e = new emp(102,"Dev",40000);
+      e1 = new emp(103,"Devansh",50000)
+      document.writeln(e.name+" "+e.id+" "+e.salary);
+      </script>
+
+  </body>
+</html>
