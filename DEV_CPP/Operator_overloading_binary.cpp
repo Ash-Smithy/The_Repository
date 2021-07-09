@@ -23,7 +23,7 @@ public:
   {
     ADD temp;
     temp.x = x + ob.x;
-    temp.y = y+ ob.y;
+    temp.y = y + ob.y;
     return temp;
   }
 };

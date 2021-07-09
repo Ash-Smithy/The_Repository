@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int stack[100], n=100, top=-1;
-void push(int val) {
+void push(int val)
+{
    if(top>=n-1)
    cout<<"Stack Overflow"<<endl;
    else {
@@ -9,7 +10,8 @@ void push(int val) {
       stack[top]=val;
    }
 }
-void pop() {
+void pop()
+{
    if(top<=-1)
    cout<<"Stack Underflow"<<endl;
    else {
@@ -17,7 +19,8 @@ void pop() {
       top--;
    }
 }
-void display() {
+void display()
+{
    if(top>=0) {
       cout<<"Stack elements are:";
       for(int i=top; i>=0; i--)
@@ -26,7 +29,8 @@ void display() {
    } else
    cout<<"Stack is empty";
 }
-int main() {
+int main()
+{
    int ch, val;
    cout<<"1) Push in stack"<<endl;
    cout<<"2) Pop from stack"<<endl;
