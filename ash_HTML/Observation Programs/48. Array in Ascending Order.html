@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>ascending order</title>
+</head>
+  <body>
+    <script language="javascript">
+      var i,t,j,temp;
+      num=new Array();
+      t=eval(window.prompt("how many numbers in the array?"));
+      for(i=0;i<t;i++)
+        {
+        num[i]=eval(window.promt("enter the number"));
+        document.write(num[i]+"<br>");
+        }
+      for(i=0;i<t;i++)
+      {
+        for(j=i+1;j<t;j++)
+        {
+          if(num[i]>num[j])
+          {
+            temp=num[i];
+            num[i]=num[j];
+            num[j]=temp;
+          }
+        }
+      }
+      document.write("ascending order <br>");
+      for(i=0;i<t;i++)
+      {
+        document.write(num[i]+"<br>");
+      }
+    </script>
+  </body>
+</html>
