@@ -1,4 +1,4 @@
-import math
-num = input("enter a number to find factorial of : ")
-fact = math.factorial(int(num))
-print("The factorial of the number is : ", fact)
+my_list = [1,2,3,4,5,6,7,8,9,10]
+i = 0
+for i in my_list:
+    print(i)
