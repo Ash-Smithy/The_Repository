@@ -14,3 +14,9 @@ def func(name,*fav_subject):
 func("Goransh","A","B")
 func("Smitha","C","D","E")
 func("Nayan")
+#default arguments
+def display_2(name, course = "BTech"):
+    print("name : " + name)
+    print("Course : ", course)
+display_2(course = "BCA",name = "Arav")
+display_2(name = "Reyansh")
