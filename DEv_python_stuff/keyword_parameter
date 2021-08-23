@@ -20,3 +20,9 @@ def display_2(name, course = "BTech"):
     print("Course : ", course)
 display_2(course = "BCA",name = "Arav")
 display_2(name = "Reyansh")
+#lambda functions or anonymous functions
+
+sum = lambda x,y:x+y
+print("sum = ",sum(3,5))
+#documentation for multi line
+"""this is a documentation line"""
