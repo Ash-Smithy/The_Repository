@@ -1,4 +1,4 @@
-def func(name,'fav_subjects'):
+def func(name,*fav_subjects):
     print(name,"likes to read")
     for sub in fav_subjects:
         print(sub," ")
