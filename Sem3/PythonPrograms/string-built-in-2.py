@@ -1,6 +1,6 @@
 str3="Is this your bag?"
 print(str3.rfind("is"))
-print(str3.rindex("your",0))
+print(str3.rindex("your",0,len(str3)))
 
 message="Jamesbond007"
 print(message.isalnum())
