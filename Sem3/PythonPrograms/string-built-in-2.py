@@ -19,3 +19,4 @@ print(message2.title())
 str1="haleo"
 str2="World"
 print(str2.join(str1))
+print(str1.just(15))
