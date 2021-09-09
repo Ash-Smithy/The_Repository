@@ -49,3 +49,10 @@ print(new_string)
 pattern4 = r"[a-zA-Z]+ \d+"
 matches = re.findall("[a-zA-Z]+ \d+", "LXI 2013, VXI 2015, VDI 20104, Maruti Suzuki Cars in India")
 print(matches)
+#more re match stuff
+#finditer
+matches1 = re.finditer(pattern4, "LXI 2013, VXI 2015, VDI 20104, Maruti Suzuki Cars in India")
+for match in matches1:
+    print("Match found at starting index  = ",match.start())
+    print("Match found at ending index = ",match.end())
+    print("Match foudn at starting and ending index = ",match.span())
