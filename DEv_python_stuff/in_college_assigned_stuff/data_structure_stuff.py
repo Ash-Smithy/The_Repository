@@ -25,3 +25,30 @@ def cre_mani_slice():
     print("list before deleting an element : ",num)
     del num[10]
     print("list after deleting 10th index element : ",num)
+    del num[:]
+    print("The entire list is now deleted after using del num[:]",num)
+    print("creating another list and now adding elements in between instead of the end")
+    list1 = [1,9,11,13,15]
+    list1[1] = [3,5,7]
+    print(list1)
+    print(list1[1])
+    print(list1[1][1])
+
+def nested_list():
+    list1 = [1,'a','abc',[3,5,7],8.9]
+    i = 0
+    while(i<len(list1)):
+        print("List1[",i,"] = ",list1[i])
+        i+=1
+def cloning_list():
+    list1 = [1,2,3,4,5,6,7,8,9,10]
+    list2 = list1
+    print("list1 = ",list1)
+    print("list2 = ",list2)
+    list3 = list1[2:6]
+    print("list3 = ",list3)
+def del_items_using_empty_list():
+    l1 = ['p','r','o','g','r','a','m']
+    l1[2:5] = []
+    print(l1)
+
