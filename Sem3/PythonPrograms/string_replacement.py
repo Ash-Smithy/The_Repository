@@ -15,3 +15,10 @@ for match in matchas:
     print("Match fount at: ", match.start())
     print("Match fount at: ", match.end())
     print("Match fount at: ", match.span())
+
+
+pattern3=r"[aeiou]"
+if re.search(pattern3,"aeiou"):
+    print("No nananananana")
+    else
+    re.search(pattern)

@@ -1,0 +1,5 @@
+#writelines()
+file=open("1.txt","a")
+file.writelines(["Hello World","Programming is fun","Enjoy Learning"])
+file.close()
+print("Date written to file)")
