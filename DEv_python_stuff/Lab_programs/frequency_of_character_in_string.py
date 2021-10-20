@@ -9,4 +9,5 @@ print("\n..............")
 print("character\tfrequency")
 print("\n..............")
 for character, frequency in frequency_dict.items():
-    print("%sc\t\t%5d"%(character,frequency))
+    print("%s\t\t%5d"%(character,frequency))
+    
