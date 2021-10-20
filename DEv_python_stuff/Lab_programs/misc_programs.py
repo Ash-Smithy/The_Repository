@@ -31,6 +31,7 @@ def prog3():
             count+=1
         i+=1
     print(num," appears ",count," times in the list ")
+
 def prog4():
     num_list = [1,2,3,4,5,6,7,6,5,4]
     print("original list ",num_list)
