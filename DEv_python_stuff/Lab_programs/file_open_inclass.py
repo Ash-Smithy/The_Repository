@@ -14,4 +14,4 @@ def read_prog():
     file = open("1.txt","r")
     print(file.read(10))
     file.closed()
-read_prog()s
+read_prog()
