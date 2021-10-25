@@ -10,7 +10,7 @@ class ABC():
         print("Object with value %d is going out of scope" %self.var)
 obj1 = ABC(10)
 obj2 = ABC(20)
-obj3=ABC(30)
+obj3 = ABC(30)
 del obj1
 del obj2
 del obj3
