@@ -1,0 +1,12 @@
+hasattr(obj,name): - used to check if an object posses attribute
+getattr(obj,name[,default]): - used to access or get the attribute of object
+setattr(obj,name,value): - used to set an attribure of the object.
+delattr(obj,name): - deletes an attribute.
+
+
+
+.__dict__:
+.__doc__:
+.__name__:
+.__moduule__:
+.__bases__:
