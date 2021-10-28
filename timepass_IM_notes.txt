@@ -1,0 +1,9 @@
+configuration manager
+SCCM
+Its a windows product that enable the management, deployment and se curity of devices and application across an enterprise
+Amongst other potential uses, administrators will commonly use SCCM for endpoint protection, patch management and software distribution
+SCCM is part of the Microsoft System Center systems management suite
+The SCCM integrated console enables management of Microsoft applications such as application Virtualization (App-V), Microsoft enterprise
+Desktop Virtualization (Med-V) Citrix XenpApp, Microsoft Forefront and windows phone applications.
+aLL these applications can then be managed by a single location
+System Center configuration manager relies on a single infrastructure, with the goal of unifying physical and virtual clients under one umbrella
