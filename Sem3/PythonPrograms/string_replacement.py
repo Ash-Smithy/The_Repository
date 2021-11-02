@@ -20,5 +20,5 @@ for match in matchas:
 pattern3=r"[aeiou]"
 if re.search(pattern3,"aeiou"):
     print("No nananananana")
-    else
+else:
     re.search(pattern)

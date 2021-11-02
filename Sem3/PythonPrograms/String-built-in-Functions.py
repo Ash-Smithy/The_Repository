@@ -3,7 +3,7 @@ print(str.center(10,'*'))
 print(str.capitalize())
 
 
-message1="helloworldhelloworld"
+message="helloworldhelloworld"
 str1="he"
 print(message.count(str1,0,len(message)))
 
