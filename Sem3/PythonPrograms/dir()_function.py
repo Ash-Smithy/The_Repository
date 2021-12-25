@@ -1,5 +1,5 @@
 # The dir() is built-in
-def print_var():
+def print_var(x):
     print(x)
 x=10
 print_var(x)

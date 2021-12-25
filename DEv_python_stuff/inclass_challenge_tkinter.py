@@ -1,0 +1,42 @@
+from tkinter import *
+import tkinter.messagebox as mb
+def total():
+    m1 = int(e1.get())
+    m2 = int(e2.get())
+    m3 = int(e3.get())
+    total = m1+m2+m3
+    val1.set(total)
+def average():
+    m1 = int(e1.get())
+    m2 = int(e2.get())
+    m3 = int(e3.get())
+    total = m1+m2+m3
+    average = total/3
+    val2.set(total/3)
+root = Tk()
+root.geometry('200x170')
+root.title("Marks!")
+l1 = Label(root,text = "Marks1  ")
+l2= Label(root,text = 'Marks2  ')
+l3 = Label(root,text = 'Marks3  ')
+e1 = Entry(root)
+e2 = Entry(root)
+e3 = Entry(root)
+l1.grid(row = 0,column = 0,padx = 5,pady = 5)
+e1.grid(row = 0,column = 1,padx = 5,pady = 5)
+l2.grid(row = 1,column = 0,padx = 5,pady = 5)
+e2.grid(row =1,column = 1,padx = 5,pady = 5)
+l3.grid(row = 2,column = 0,padx = 5,pady = 5)
+e3.grid(row = 2,column =1,padx = 5,pady = 5)
+btn1 = Button(root,text = 'Total',command = total)
+btn2 = Button(root,text = 'Average',command = average)
+btn1.grid(row = 3,column = 0,padx = 5,pady = 5)
+btn2.grid(row = 4,column = 0,padx = 5,pady = 5)
+val1 = StringVar()
+val2 = StringVar()
+ans1 = Label(root,textvariable = val1,bg = 'white',width = 10)
+ans2 = Label(root,textvariable = val2,bg = 'white',width = 10)
+ans1.grid(row = 3, column = 1,padx = 5,pady = 5)
+ans2.grid(row = 4, column = 1,padx = 5,pady = 5)
+root.resizable(0,0)
+root.mainloop()

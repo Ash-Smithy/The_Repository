@@ -17,6 +17,6 @@ root.geometry('600x400')
 def warned():
     popup_window()
 
-btn = Button(root,text="Don't you dare click this button",bd = '5',command = warned).pack()
+btn = Button(root,text="Don't you dare click this button",command = warned).pack()
 root.resizable(False,False)
 root.mainloop()

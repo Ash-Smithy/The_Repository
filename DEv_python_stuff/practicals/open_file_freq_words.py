@@ -8,3 +8,4 @@ for line in file1:
         else:
             counts[word]+=1
 print(counts)
+file1.close()
