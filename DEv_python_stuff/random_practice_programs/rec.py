@@ -4,17 +4,17 @@ def functions_arguments():
     def func1(name,age):
         print("Name : ",name)
         print("Age  : ",age)
-    func1('Dev',19)
+    func1('Jacob',19)
     #keyword argument
     def func2(name,age):
         print("Name : ",name)
         print("Age  : ",age)
-    func2(age = 19,name = "Dev")
+    func2(age = 19,name = "Jacob")
     #default argument
     def func3(name=' ',age=0):
         print("Name : ",name)
         print("Age  : ",age)
-    func3('Devansh')
+    func3('Jacob')
     #variable length arguments
     def func4(*b):
         for i in b:
@@ -24,7 +24,7 @@ def functions_arguments():
     def func5(a=0,**b):
         for j,i in b.items():
             print('\n',j," = ",i)
-    func5(a = 4,name = 'EEvil',sur = "boys")
+    func5(a = 4,name = 'Jacob',sur = "Collier")
 
 #recursions
 def fib(n):

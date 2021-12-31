@@ -11,7 +11,7 @@ def single_inheritance():
         def display(self):
             print("Name : ",self.name) 
             print("Age  : ",self.age)
-    object1 = Derived('Devansh',19)
+    object1 = Derived('Jacob',19)
     object1.display()
 single_inheritance()
 #multiple inheritance 
@@ -31,7 +31,7 @@ def multiple_inheritance():
             print("Name : ",self.name)
             print("Age  : ",self.age)
             print("Department : ",self.department)
-    object1 = Derived('Computers',"Devansh",19)
+    object1 = Derived('Computers',"jacob",19)
     object1.display_function()
 #multilevel_inheritance
 def multilevel_inheritance():

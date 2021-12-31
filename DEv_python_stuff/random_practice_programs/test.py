@@ -1,11 +1,10 @@
-n = int(input("enter a number : "))
-a = []
-while(n>0):
-    dig = n%2
-    a.append(dig)
-    n = n//2
-a.reverse()
-print("Binary Equivalent is : ")
-for i in a:
-    print(i,end = " ")
-    
+from tkinter import *
+from tkinter import messagebox
+root =Tk()
+entry = Entry(root)
+entry.pack()
+def printMsg():
+    messagebox.showinfo('Popup',entry.get())
+button = Button(root,text = 'print content',command = printMsg)
+button.pack()
+root.mainloop()
