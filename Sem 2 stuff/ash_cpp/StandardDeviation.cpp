@@ -21,4 +21,5 @@ int main()
    cout<<endl;
    cout << "Variance is: " << var << endl;
    cout<<"Standard deviation of these data values is "<<stdv;
+   //dev was here
 }

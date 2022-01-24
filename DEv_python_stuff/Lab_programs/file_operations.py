@@ -5,7 +5,7 @@ def line_byline():
     print("third line : ",file.readline())
 def all_atonce():
     file = open("1.txt","r")
-    print(file.readlines())
+    print(file.read())
     file.close()
 def list_method():
     file = open("1.txt","r")
@@ -17,3 +17,6 @@ def with_keyword():
             print(line)
     print("Is the file closed : ",file.closed)
 
+file = open("1.txt","r")
+print(file.read())
+file.close()
