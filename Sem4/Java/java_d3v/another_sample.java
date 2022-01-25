@@ -34,5 +34,10 @@ public class another_sample
         r1.getdata(10,5); //calls getdata and pases x,y values
         int area = r1.rectArea(); //calls rectArea and returns area
         System.out.println("Area of rectangle is : "+area);
+        Rectangle r2 = new Rectangle();
+        r2.getdata(15,5);
+        int area2 = r2.rectArea();
+        System.out.println("Area of rectangle is : "+area2);
+    
     }
 }

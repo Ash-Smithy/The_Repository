@@ -10,6 +10,7 @@ class Rectangle {
         int a=l*b;
         return(a);
     }
+}
 public class rectangle
 {
     public static void main(String args[])
