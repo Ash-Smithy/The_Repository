@@ -1,4 +1,4 @@
-class Rectangle {
+class Rect {
     int l,b;
     void getdata(int x,int y)
     {
@@ -10,11 +10,12 @@ class Rectangle {
         int a=l*b;
         return(a);
     }
+}
 public class rectangle
 {
     public static void main(String args[])
     {
-        Rectangle r1=new Rectangle();
+        Rect r1=new Rect();
         r1.getdata(10,5);
         int area=r1.area();
         System.out.println("Area of rectangle is: "+area);
