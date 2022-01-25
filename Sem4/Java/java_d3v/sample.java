@@ -1,3 +1,5 @@
+package java_d3v;
+
 // public class Sample
 // {
 //     public static void main(String args[])
@@ -91,7 +93,6 @@ class mainclass{
         s2.name = "Joseph";
         System.out.println("Student 1 details : "+s1.rno+" "+s1.name);
         System.out.println("Student 2 details : "+s2.rno+" "+s2.name);
-    
     }
 }
 
@@ -112,6 +113,4 @@ P s v main(String args[]) //this refers that the main can also take arguemnts
 C:/>javac name.java //compiling
 C:/>java name arg1 arg2 arg3 //this statement calls main and main is where execution begins
 
-*/class sample {
-    
-}
+*/
