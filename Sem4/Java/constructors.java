@@ -1,4 +1,4 @@
-package java_d3v;
+
 /*
 Constructors :
 1.) It's a special method with the same name 
@@ -8,10 +8,10 @@ type, not even void
 3.)It gets called when the object is created 
    implicitly
 */
-class classname
+class Rectangle
 {
     int l,b;
-    classname(int x,int y)
+    Rectangle(int x,int y)
     {
         l = x;
         b = y; 
@@ -25,11 +25,11 @@ class classname
 public class constructors{
     public static void main(String args[])
     {
-        classname c1 = new classname(10,5);
+        Rectangle c1 = new Rectangle(10,5);
         //this statement creates object c1 and 
         //implicitly calls the constructor and passes 
         //10 and 5 which are initialized to x and y
-        classname c2 = new classname(12,6);
+        Rectangle c2 = new Rectangle(12,6);
         int a1=c1.rectarea();
         int a2=c2.rectarea();
         System.out.println("area 1 : "+a1);
