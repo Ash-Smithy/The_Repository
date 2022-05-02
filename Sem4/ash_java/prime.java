@@ -10,11 +10,11 @@ public class prime {
             }
         }
         if (a == 0){
-            System.out.println("It is prime");
+            System.out.println(in+" is prime");
 
         }
         else{
-            System.out.println("It is not prime");
+            System.out.println(in+" is not prime");
         }
     }
 }
