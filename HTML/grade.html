@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practical 1</title>
+</head>
+<body>
+    <form>
+        <label><h2>Enter Mark : </h2></label>
+        
+        <input type = "text" id = "markInput">
+        <hr>
+        <label><h2>Grade Point : </h2></label>
+        <button type = "button" onClick = "getResult()">Get Result</button>
+        <input type = "text" id = "resultLabel">
+
+    </form>
+    <script>
+        function getResult(){
+            var mark;
+            var gradePoint = "";
+            mark = parseInt(document.getElementById("markInput").value);
+            if(mark >= 60 ){
+            gradePoint = "First Division";
+        } 
+        else if(mark >= 40 ){
+            gradePoint = "Second Division";
+        }
+        else if(mark >= 33){
+            gradePoint = "Third Division";
+        }
+        else{
+            gradePoint = "Fail";
+        }
+        console.log("student grade : " + gradePoint);
+        document.getElementById("resultLabel").value = gradePoint;  
+    }
+    </script>
+</body>
+</html>

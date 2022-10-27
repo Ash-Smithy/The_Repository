@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practical 2</title>
+</head>
+<body>
+    <form>
+        <label><h2>Marks Above 60</h2></label>
+        <input type = "text" id = "output">
+        <button type = "button" onClick = "result()">Total Students</button>
+    </form>
+    <script>
+        function result(){
+            var count = 0;
+            var markArr = [30,45,50,68,99,79,89,53,41,50];
+            for(var i = 0;i<markArr.length;i++){
+                if(markArr[i] >= 60){
+                    count++;
+                }
+                else{
+                    continue;
+                }
+            } 
+            document.getElementById("output").value = count + " students scored above 60";
+        }
+    </script>
+</body>
+</html>
